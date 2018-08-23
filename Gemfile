@@ -43,3 +43,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'surveyor', :git => 'https://github.com/HeHStudy/surveyor'
