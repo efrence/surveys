@@ -1,4 +1,5 @@
 SurveyorUcsf::Application.routes.draw do
+  get '/', to: redirect('/surveys')
   mount Surveyor::Engine => "/surveys", :as => "surveyor"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
